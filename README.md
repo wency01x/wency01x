@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Wency</h1>
-<h3 align="center">A passionate Aspiring Backend Developer from the Philippines. I love building the "brains" of applications—focusing on logic, efficiency, and scalable architecture. I’m currently deep-diving into server-side technologies and exploring how to make the web faster and more secure.</h3>
+<h1>Hi 👋, I'm Wency</h1>
+<h3>A passionate Aspiring Backend Developer from the Philippines. I love building the "brains" of applications—focusing on logic, efficiency, and scalable architecture. I’m currently deep-diving into server-side technologies and exploring how to make the web faster and more secure.</h3>
 
 - 🌱 I’m currently learning **APIs**
 
