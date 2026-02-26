@@ -56,11 +56,11 @@
 
 ###
 
-<h1 align="left">Hi, I'm Cy</h1>
+<h3 align="left">Hi, I'm Cy</h3>
 
 ###
 
-<h2 align="left">ASPIRING BACKEND ENGINEER</h2>
+<h3 align="left">ASPIRING BACKEND ENGINEER</h3>
 
 ###
 
