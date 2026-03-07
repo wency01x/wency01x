@@ -1,5 +1,4 @@
 <br clear="both">
-# "If we never allow our work to be questioned, we also stop allowing it to grow.”  
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="57" alt="amazonwebservices logo"  />
   <img width="12" />
@@ -61,6 +60,13 @@
 ###
 
 <h3 align="left">ASPIRING BACKEND ENGINEER</h3>
+
+
+
+### "If we never allow our work to be questioned,  
+### we also stop allowing it to grow."
+
+
 
 ###
 
