@@ -35,7 +35,7 @@
   <text class="txt l2"  x="20" y="90"  fill="#00ff41">[OK] System ready</text>
 
   <text class="txt l3"  x="20" y="126" fill="#ffffff">
-    <tspan fill="#00ff41">wency</tspan><tspan fill="#ffffff">@</tspan><tspan fill="#56b6c2">ubuntu</tspan><tspan fill="#ffffff">:~$ whoami</tspan>
+    <tspan fill="#00ff41">cy</tspan><tspan fill="#ffffff">@</tspan><tspan fill="#56b6c2">ubuntu</tspan><tspan fill="#ffffff">:~$ whoami</tspan>
   </text>
   <text class="txt l4"  x="20" y="152" fill="#ffffff"><tspan fill="#febc2e">Name     : </tspan>Wency Casino</text>
   <text class="txt l5"  x="20" y="172" fill="#ffffff"><tspan fill="#febc2e">Role     : </tspan>Backend Engineer</text>
@@ -44,7 +44,7 @@
   <text class="txt l8"  x="20" y="232" fill="#6a737d">------------------------------------------</text>
 
   <text class="txt l9"  x="20" y="265" fill="#ffffff">
-    <tspan fill="#00ff41">wency</tspan><tspan fill="#ffffff">@</tspan><tspan fill="#56b6c2">ubuntu</tspan><tspan fill="#ffffff">:~$ cat skills.txt</tspan>
+    <tspan fill="#00ff41">cy</tspan><tspan fill="#ffffff">@</tspan><tspan fill="#56b6c2">ubuntu</tspan><tspan fill="#ffffff">:~$ cat skills.txt</tspan>
   </text>
   <text class="txt l10" x="20" y="291" fill="#ffffff"><tspan fill="#febc2e">Backend  : </tspan>FastAPI, GraphQL, SQLAlchemy</text>
   <text class="txt l11" x="20" y="311" fill="#ffffff"><tspan fill="#febc2e">Database : </tspan>PostgreSQL, MySQL, SQLite</text>
@@ -52,12 +52,12 @@
   <text class="txt l13" x="20" y="351" fill="#6a737d">------------------------------------------</text>
 
   <text class="txt l14" x="20" y="385" fill="#ffffff">
-    <tspan fill="#00ff41">wency</tspan><tspan fill="#ffffff">@</tspan><tspan fill="#56b6c2">ubuntu</tspan><tspan fill="#ffffff">:~$ echo $STATUS</tspan>
+    <tspan fill="#00ff41">cy</tspan><tspan fill="#ffffff">@</tspan><tspan fill="#56b6c2">ubuntu</tspan><tspan fill="#ffffff">:~$ echo $STATUS</tspan>
   </text>
   <text class="txt l15" x="20" y="408" fill="#00ff41">building scalable backend systems...</text>
 
   <text class="txt l16" x="20" y="445" fill="#ffffff">
-    <tspan fill="#00ff41">wency</tspan><tspan fill="#ffffff">@</tspan><tspan fill="#56b6c2">ubuntu</tspan><tspan fill="#ffffff">:~$ </tspan>
+    <tspan fill="#00ff41">cy</tspan><tspan fill="#ffffff">@</tspan><tspan fill="#56b6c2">ubuntu</tspan><tspan fill="#ffffff">:~$ </tspan>
   </text>
 
   <!-- cursor only appears after last line, blinks 3 times then stays -->
