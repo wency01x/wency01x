@@ -1,0 +1,16 @@
+{
+  "name": "Wency Casiño",
+  "role": "Backend Engineer",
+  "education": "Computer Science",
+  "focus": [
+    "API Development",
+    "Backend Systems",
+    "Database Design"
+  ],
+  "stack": {
+    "backend": ["FastAPI","GraphQL"],
+    "databases": ["PostgreSQL","MySQL","SQLite"],
+    "orm": ["SQLAlchemy"],
+    "languages": ["Python","SQL"]
+  }
+}
