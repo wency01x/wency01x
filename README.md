@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media1.tenor.com/m/e73LQkmBbcUAAAAd/mr-robot-happy.gif" width="600"/>
+  <img src="https://media1.tenor.com/m/e73LQkmBbcUAAAAd/mr-robot-happy.gif" width="300"/>
 </p>
 
 <br>
