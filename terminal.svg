@@ -2,25 +2,46 @@
   <style>
     .txt { font-family: 'Courier New', monospace; font-size: 16px; }
     text { opacity: 0; }
-    .l1  { animation: show .05s 0.3s forwards; }
-    .l2  { animation: show .05s 0.7s forwards; }
-    .l3  { animation: show .05s 1.2s forwards; }
-    .l4  { animation: show .05s 1.6s forwards; }
-    .l5  { animation: show .05s 2.0s forwards; }
-    .l6  { animation: show .05s 2.4s forwards; }
-    .l7  { animation: show .05s 2.8s forwards; }
-    .l8  { animation: show .05s 3.2s forwards; }
-    .l9  { animation: show .05s 3.7s forwards; }
-    .l10 { animation: show .05s 4.1s forwards; }
-    .l11 { animation: show .05s 4.5s forwards; }
-    .l12 { animation: show .05s 4.9s forwards; }
-    .l13 { animation: show .05s 5.3s forwards; }
-    .l14 { animation: show .05s 5.8s forwards; }
-    .l15 { animation: show .05s 6.2s forwards; }
-    .l16 { animation: show .05s 6.6s forwards; }
-    .cur { animation: blink 1s 6.8s 3 forwards; opacity: 0; }
-    @keyframes show  { to { opacity: 1; } }
-    @keyframes blink { 0%,100% { opacity:0; } 50% { opacity:1; } }
+
+    /* total cycle = 30s: animates in first 8s, stays 15s, resets 7s */
+    .l1  { animation: l1  30s ease infinite; }
+    .l2  { animation: l2  30s ease infinite; }
+    .l3  { animation: l3  30s ease infinite; }
+    .l4  { animation: l4  30s ease infinite; }
+    .l5  { animation: l5  30s ease infinite; }
+    .l6  { animation: l6  30s ease infinite; }
+    .l7  { animation: l7  30s ease infinite; }
+    .l8  { animation: l8  30s ease infinite; }
+    .l9  { animation: l9  30s ease infinite; }
+    .l10 { animation: l10 30s ease infinite; }
+    .l11 { animation: l11 30s ease infinite; }
+    .l12 { animation: l12 30s ease infinite; }
+    .l13 { animation: l13 30s ease infinite; }
+    .l14 { animation: l14 30s ease infinite; }
+    .l15 { animation: l15 30s ease infinite; }
+    .l16 { animation: l16 30s ease infinite; }
+    .cur { animation: cur 30s ease infinite; opacity: 0; }
+
+    /* each % = 0.3s in a 30s cycle */
+    @keyframes l1  { 0%,1%   {opacity:0;} 2%,76%  {opacity:1;} 80%,100%{opacity:0;} }
+    @keyframes l2  { 0%,3%   {opacity:0;} 4%,76%  {opacity:1;} 80%,100%{opacity:0;} }
+    @keyframes l3  { 0%,5%   {opacity:0;} 7%,76%  {opacity:1;} 80%,100%{opacity:0;} }
+    @keyframes l4  { 0%,7%   {opacity:0;} 9%,76%  {opacity:1;} 80%,100%{opacity:0;} }
+    @keyframes l5  { 0%,9%   {opacity:0;} 11%,76% {opacity:1;} 80%,100%{opacity:0;} }
+    @keyframes l6  { 0%,11%  {opacity:0;} 13%,76% {opacity:1;} 80%,100%{opacity:0;} }
+    @keyframes l7  { 0%,13%  {opacity:0;} 15%,76% {opacity:1;} 80%,100%{opacity:0;} }
+    @keyframes l8  { 0%,15%  {opacity:0;} 17%,76% {opacity:1;} 80%,100%{opacity:0;} }
+    @keyframes l9  { 0%,18%  {opacity:0;} 20%,76% {opacity:1;} 80%,100%{opacity:0;} }
+    @keyframes l10 { 0%,20%  {opacity:0;} 22%,76% {opacity:1;} 80%,100%{opacity:0;} }
+    @keyframes l11 { 0%,22%  {opacity:0;} 24%,76% {opacity:1;} 80%,100%{opacity:0;} }
+    @keyframes l12 { 0%,24%  {opacity:0;} 26%,76% {opacity:1;} 80%,100%{opacity:0;} }
+    @keyframes l13 { 0%,26%  {opacity:0;} 28%,76% {opacity:1;} 80%,100%{opacity:0;} }
+    @keyframes l14 { 0%,29%  {opacity:0;} 31%,76% {opacity:1;} 80%,100%{opacity:0;} }
+    @keyframes l15 { 0%,31%  {opacity:0;} 33%,76% {opacity:1;} 80%,100%{opacity:0;} }
+    @keyframes l16 { 0%,33%  {opacity:0;} 35%,76% {opacity:1;} 80%,100%{opacity:0;} }
+    @keyframes cur { 0%,34%  {opacity:0;} 35%,36% {opacity:1;} 37%,38% {opacity:0;}
+                     38%,39% {opacity:1;} 39%,40% {opacity:0;} 40%,76% {opacity:1;}
+                     80%,100%{opacity:0;} }
   </style>
 
   <rect width="750" height="480" rx="10" fill="#0d1117"/>
@@ -60,6 +81,5 @@
     <tspan fill="#00ff41">cy</tspan><tspan fill="#ffffff">@</tspan><tspan fill="#56b6c2">ubuntu</tspan><tspan fill="#ffffff">:~$ </tspan>
   </text>
 
-  <!-- cursor only appears after last line, blinks 3 times then stays -->
   <rect class="cur" x="120" y="433" width="10" height="16" fill="#00ff41"/>
 </svg>
